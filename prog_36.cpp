@@ -2,15 +2,6 @@
 
 using namespace std;
 
-stack<string> rev(stack<string> &st){
-    stack<string> tem;
-    while(!st.empty()){
-        tem.push(st.top());
-        st.pop();
-    }
-    st=tem;
-    return st;
-}
 
 int main(){
     map<int,float> mymap = {
